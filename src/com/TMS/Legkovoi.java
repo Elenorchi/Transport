@@ -40,11 +40,12 @@ public class Legkovoi extends Nazemnyi {
         kilometers = time * MaxSpeed;
     }
 
-    public void fuel() {
+    private void fuel() {
         this.fuel = (FuelConsumption / 100 * kilometers);
     }
 
     public void result() {
+        fuel();
         System.out.println(" За время " + time + " ч, автомобиль " + brand + ", двигаясь с максимальной скоростью " + MaxSpeed + " км/ч, проедет " + kilometers + " км и израсходует " + fuel + " литров топлива.");
 
     }

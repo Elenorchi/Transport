@@ -8,7 +8,6 @@ public class Main {
         lg.kilowatts();
         lg.info();
         lg.kilometers();
-        lg.fuel();
         lg.result();
         System.out.println ();
         Gruzovoi grz = new Gruzovoi(400,120,3000,"Belaz", 4 , 15);
@@ -17,5 +16,6 @@ public class Main {
         civ.people();
         Military mil = new Military( 350, 350, 2000, "Eagle", 40, 100);
         mil.fire();
+        mil.catapult ();
     }
 }

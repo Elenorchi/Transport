@@ -32,4 +32,11 @@ public class Military extends AirTransport {
             System.out.println("Ракеты закончились");
         }
     }
+    public void catapult () {
+        if (catapult ==true ) {
+            System.out.println("Катапультирование прошло успешно");
+        } else {
+            System.out.println("Катапультирование не удалось");
+        }
+    }
 }
